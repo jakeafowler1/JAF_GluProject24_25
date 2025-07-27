@@ -5,7 +5,7 @@ import seaborn as sns
 import os
 import matplotlib.patches as patches
 
-# Define the amino acid groups based on the image reference
+# Define the amino acid groups based the scenario
 amino_acid_groups = {
     'Aliphatic': ['L', 'V', 'I'],
     'Glycine': ['G'],
@@ -20,17 +20,17 @@ amino_acid_groups = {
 
 # Input list of positions and corresponding reference amino acids with the label (e.g., 'N51')
 positions_reference = [
-    #('F54', 93),   # Y426 -> Alignment Position 34
+    #('F54', 93),   # Y426 -> Alignment Position 
     #('Y445', 377),  #Y445
-    #('Y129', 772),   # F516 -> Alignment Position 16
-    #'('F130', 813), # M517 -> Alignment Position 661
-    #('Y342', 1606), # Y753 -> Alignment Position 664
-    #('W788', 1862), # W788 -> Alignment Position 696
+    #('Y129', 772),   # F516 -> Alignment Position 
+    #'('F130', 813), # M517 -> Alignment Position 
+    #('Y342', 1606), # Y753 -> Alignment Position 
+    #('W788', 1862), # W788 -> Alignment Position 
     
-    ('G67', 376),   # Y426 -> Alignment Position 34
-    ('D71', 380),   # Y426 -> Alignment Position 34
-    ('R375', 1859),   # Y426 -> Alignment Position 34
-    ('W376', 1860),   # Y426 -> Alignment Position 34
+    ('G67', 376),   # Y426 -> Alignment Position 376
+    ('D71', 380),   # Y426 -> Alignment Position 380
+    ('R375', 1859),   # Y426 -> Alignment Position 1859
+    ('W376', 1860),   # Y426 -> Alignment Position 1860
 
 
 ]
